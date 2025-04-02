@@ -1,0 +1,28 @@
+body {
+    font-family: 'Viaoda Libre', serif;
+}
+
+.header-title {
+    background-color: rgb(28, 28, 28);
+}
+
+.main-content {
+    background-color: rgb(255, 227, 185);
+}
+
+.nav-item-dark {
+    background-color: rgb(28, 28, 28);
+}
+
+.piano-image {
+    height: 45vh;
+}
+
+.creator-image {
+    height: 45vh;
+    border-radius: 50%;
+}
+
+footer p {
+    font-size: x-small;
+}

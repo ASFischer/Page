@@ -1,69 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criação do Piano</title>
+    
+    <!-- External Resources -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header>
         <div>
-        <h1 class="text-white text-center display-4 m-0" style="font-family: Viaoda Libre, serif; background-color: rgb(28, 28, 28);">
-            <strong><em>Piano</em></strong></h1>
+            <h1 class="text-white text-center display-4 m-0 header-title">
+                <strong><em>Piano</em></strong>
+            </h1>
         </div>
-        <nav>
-            <div style="text-align: center; font-family: Viaoda Libre, serif;">
-                <div class="row">
-                  <div class="col">
-                    Criador
-                  </div>
-                  <div class="col text-white" style="background-color: rgb(28, 28, 28);">
-                    Pianistas
-                  </div>
-                  <div class="col">
-                    Saiba Mais
-                  </div>
-                </div>
-              </div>
-        </nav>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item"><a class="nav-link" href="#criacao">Criação</a></li>
+            <li class="nav-item nav-item-dark"><a class="nav-link" href="#criador">Criador</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pianistas">Pianistas</a></li>
+        </ul>
     </header>
     
-    <main class="m-0" style="font-family: Viaoda Libre, serif; background-color: rgb(255, 227, 185);">
-        <section>
-            <h2 class="text-center pb-3">Criação do Piano</h2>
-            <p>O piano foi inventado por Bartolomeo Cristofori, um fabricante de cravos italiano, por volta do ano 1700. 
-            Cristofori estava insatisfeito com as limitações do cravo, principalmente a incapacidade de controlar a intensidade do som ao pressionar as teclas. 
-            Ele desenvolveu um mecanismo de martelos que permitia variar a dinâmica do som (suave e forte), criando assim o <em>"gravicembalo col piano e forte"</em>, que mais tarde ficou conhecido simplesmente como pianoforte e, depois, piano.</p>
+    <main class="m-0 main-content">
+        <section id="criacao" class="py-3">
+            <h2 class="text-center py-3">Criação do Piano</h2>
+            <div class="px-3">
+                <p class="m-0">
+                    O piano foi inventado por Bartolomeo Cristofori, um fabricante de cravos italiano, por volta do ano 1700. 
+                    Cristofori estava insatisfeito com as limitações do cravo, principalmente a incapacidade de controlar a intensidade do som ao pressionar as teclas. 
+                    Ele desenvolveu um mecanismo de martelos que permitia variar a dinâmica do som (suave e forte), criando assim o <em>"gravicembalo col piano e forte"</em>, 
+                    que mais tarde ficou conhecido simplesmente como pianoforte e, depois, piano.
+                </p> 
+                <p class="m-0 mt-2">
+                    Este piano, o mais antigo que existe, é um dos três instrumentos procedentes da oficina de Bartolomeo Cristofori, 
+                    que inventou o piano em 1700 na corte florentina de Médici. O exemplar do Museu, que data de 1720, ainda pode ser tocado. 
+                    Seu mecanismo complexo prefigura o piano moderno, mas o teclado é mais curto e não tem pedais para gerar contrastes tonais. 
+                    Em vez disso, a extensão compreende três registros diferentes: tons baixos quentes e sonoros, meias oitavas mais dinâmicas e tons agudos de som breve e brilhante.
+                </p>
+            </div>
+            
+            <figure class="d-flex justify-content-center align-items-center mt-4">
+                <img src="https://www.yamaha.com/en/musical_instrument_guide/common/images/piano/structure_main.jpg" 
+                     class="figure-img img-fluid piano-image" 
+                     alt="Primeiro piano">
+            </figure>
         </section>
-        <section>
+        
+        <section id="criador" class="py-3">
             <h2 class="text-center pb-3">Criador</h2>
-            <p>
-                Cristofori foi um habilidoso fabricante de cravos (1655-1731) que perpetuou seu nome na História da Música, 
-                ao desenvolver um mecanismo que pudesse realizar diferentes dinâmicas nos sons dos instrumentos de tecla e, assim, 
-                inventar nosso querido instrumento, o piano. Nascido em Pádua (Itália), Cristofori mudou-se para Florença, em 1690, 
-                a convite do príncipe Ferdinando de Médici, para trabalhar como músico e fabricante de instrumentos musicais da corte toscana.
-                Embora o cravo fosse um instrumento versátil, não era possível realizar nuances de forte e fraco, ao tocar uma tecla com mais ou menos intensidade, 
-                em função do mecanismo deste instrumento: as cordas eram colocadas em vibração por um plectro que a beliscava quando por ela passava.
-                Assim, não havia como modificar a intensidade da produção do som. Aqui então entra a figura de Cristofori, o habilidoso construtor de cravos que, desde criança, 
-                adorava música e quis combinar em um único instrumento as virtudes dos outros dois: a expressividade do clavicórdio com a potência sonora do cravo. 
-                Assim, em 1709, ele decide substituir os plectros que beliscavam as notas do cravo por pequenos martelos que as percutiam e, por fim, 
-                cria o Gravicembalo col piano e forte (grande cravo com fraco e forte). 
-                Paulatinamente o nome grande e desajeitado foi substituído por “pianoforte” e, finalmente, “piano”, como hoje conhecemos.
-            </p>
-            <figure  class="d-flex justify-content-center align-items-center" style="height: auto; ">
-                <img src="https://antoniopianos.com.br/wp-content/uploads/2020/04/bartolomeu.jpg" class="figure-img img-fluid" style="border-radius: 50%; height: 45vh;" alt="Responsive image">
+            <div class="px-3">
+                <p>
+                    Cristofori foi um habilidoso fabricante de cravos (1655-1731) que perpetuou seu nome na História da Música, 
+                    ao desenvolver um mecanismo que pudesse realizar diferentes dinâmicas nos sons dos instrumentos de tecla e, assim, 
+                    inventar nosso querido instrumento, o piano. Nascido em Pádua (Itália), Cristofori mudou-se para Florença, em 1690, 
+                    a convite do príncipe Ferdinando de Médici, para trabalhar como músico e fabricante de instrumentos musicais da corte toscana.
+                </p>
+                <p>
+                    Embora o cravo fosse um instrumento versátil, não era possível realizar nuances de forte e fraco, ao tocar uma tecla com mais ou menos intensidade, 
+                    em função do mecanismo deste instrumento: as cordas eram colocadas em vibração por um plectro que a beliscava quando por ela passava.
+                    Assim, não havia como modificar a intensidade da produção do som. Aqui então entra a figura de Cristofori, o habilidoso construtor de cravos que, desde criança, 
+                    adorava música e quis combinar em um único instrumento as virtudes dos outros dois: a expressividade do clavicórdio com a potência sonora do cravo. 
+                </p>
+                <p>
+                    Assim, em 1709, ele decide substituir os plectros que beliscavam as notas do cravo por pequenos martelos que as percutiam e, por fim, 
+                    cria o Gravicembalo col piano e forte (grande cravo com fraco e forte). 
+                    Paulatinamente o nome grande e desajeitado foi substituído por "pianoforte" e, finalmente, "piano", como hoje conhecemos.
+                </p>
+            </div>
+            
+            <figure class="d-flex justify-content-center align-items-center mt-4">
+                <img src="https://antoniopianos.com.br/wp-content/uploads/2020/04/bartolomeu.jpg" 
+                     class="figure-img img-fluid creator-image" 
+                     alt="Retrato de Bartolomeo Cristofori">
             </figure>
         </section>
     </main>
     
     <footer>
-        <p class="text-center p-1" style="font-size: x-small;">&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+        <p class="text-center p-1">&copy; 2025 Meu Site. Todos os direitos reservados.</p>
     </footer>
 
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
