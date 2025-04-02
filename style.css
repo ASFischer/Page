@@ -1,5 +1,6 @@
 body {
     font-family: 'Viaoda Libre', serif;
+    background-color: rgb(255, 227, 185);
 }
 
 .header-title {
@@ -7,11 +8,16 @@ body {
 }
 
 .main-content {
-    background-color: rgb(255, 227, 185);
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .nav-item-dark {
     background-color: rgb(28, 28, 28);
+}
+
+.nav-item-white {
+    background-color: azure;
 }
 
 .piano-image {
@@ -25,4 +31,25 @@ body {
 
 footer p {
     font-size: x-small;
+}
+
+.nav-tabs .nav-link-black {
+    color: #ffffff;
+}
+
+.nav-tabs .nav-link-white {
+    color: rgb(28, 28, 28);
+}
+
+.nav-tabs .nav-link.dropdown-toggle {
+    position: relative;
+}
+
+.nav-item-white .dropdown-menu {
+    background-color: white;
+}
+
+.nav-tabs .nav-link-black:focus,
+.nav-tabs .nav-link-black:hover {
+    border-color: rgb(28, 28, 28);
 }
